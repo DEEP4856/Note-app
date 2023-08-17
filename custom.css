@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7657bb;
+    
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.note{
+    width: 200px;
+    height: 200px;
+    /* margin: 15px; */
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 5px;
+
+}
+.tool{
+    width: 100%;
+    background-color: black;
+    padding: 2px;
+    display: flex;
+    justify-content: end;
+}
+i{
+ color: white;
+ margin-right: 4px;
+ cursor: pointer;
+}
+
+.note textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+   
+
+   
+
+}
+.note textarea:focus{
+    border: 0;
+    outline: 0;
+    
+
+}
+.add{
+    color: blue;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    position: fixed;
+   text-align: center;
+   justify-content: center;
+   right: 10px;
+}
+.save:hover{
+ color: rgb(66, 255, 8);
+}
+.delete:hover{
+    color: red;
+}
